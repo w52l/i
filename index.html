@@ -3,7 +3,22 @@
 
    <head>
       <meta charset="utf-8">
-      <title>love</title>
+      <title>pain</title>
+      <style>
+        html {
+          -webkit-filter: grayscale(100%); /* webkit */
+          -moz-filter: grayscale(100%); /*firefox*/
+          -ms-filter: grayscale(100%); /*ie9*/
+          -o-filter: grayscale(100%); /*opera*/
+          filter: grayscale(100%);
+          filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+        }
+        body{
+          filter:gray; /*ie9- */
+          background : none!important;
+        }
+      </style>
+
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
       <link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
